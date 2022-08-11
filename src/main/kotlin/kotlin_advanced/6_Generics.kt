@@ -47,5 +47,5 @@ fun main() {
     // 아래처럼 불가능이지만 공변성을 통해 해결
      val charGenerics : MyGenerics<CharSequence> = generics
 
-
+    //지정된 제네릭 타입을 반환할 수 있는 것은 타입 인자의 하위 타입을 타입 인자로 갖는 객체들이고, 그런 객체들과의 호환성을 허용하게 해주는 것이 out 키워드
 }
